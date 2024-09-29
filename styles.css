@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.token-input {
+    margin-bottom: 20px;
+}
+
+.token-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.token-input input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.token-input input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#missions {
+    margin-top: 20px;
+}
+
+.mission {
+    background-color: #e7f1ff;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.mission.completed {
+    background-color: #d4edda;
+    border-left-color: #28a745;
+}
+
+.mission h4 {
+    margin: 0;
+}
+
+.mission p {
+    margin: 5px 0 0;
+}
